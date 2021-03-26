@@ -4,39 +4,17 @@ date: 2021-03-26
 draft: false
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways.
-<!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+　このプライバシーポリシーは，開発者がこのアプリケーション上で提供するサービス（以下，「本サービス」といいます。）を運用する際に得られた個人情報を私がどのように扱うか示しています。利用者の皆さま（以下，「ユーザー」といいます。）が本サービスをご利用いただく場合、以下のプライバシーポリシーに同意したものとみなします。
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+1. 個人情報の利用目的  
+　本サービスでは、お問い合わせの際、名前やメールアドレス等の個人情報を入力いただく場合がございます。取得した個人情報は、お問い合わせに対する回答をご連絡する場合に利用させていただくものであり、この目的以外では利用いたしません。
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+2. Twitter, Inc. が提供するサービスを利用する際のプライバシーポリシー  
+　本サービスではTwitter APIを利用しコンテンツを表示しています。ユーザーがTwitter, Inc.が提供するサービスを利用する際には、ユーザーはTwitterのプライバシーポリシーにも同意しているものとみなします。詳しくは下のリンクからご確認ください。
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+- [Twitterのプライバシーポリシーはこちらから](https://twitter.com/ja/privacy)
 
-***
+3. Googleが提供するサービスを利用する際のプライバシーポリシー  
+　本アプリケーションについての問い合わせにはGoogleフォームを用いる場合があります．Googleのサービスを利用する場合にはGoogle独自のプライバシーポリシーが適用されます．詳しくは下に示したリンク先でご確認いただけます．
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-{{< highlight html >}}
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-{{< /css.inline >}}
+- [Googleのプライバシーポリシーと利用規約はこちらから](https://policies.google.com/terms?hl=ja)
