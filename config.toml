@@ -9,7 +9,7 @@ theme="pulp"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-        This site is for an app. called SUEP.
+        This site is for an app. named SUEP.
     """
     publicationYear = "2021"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
