@@ -27,25 +27,32 @@ theme="pulp"
     #name = "App" #If display text link, cancel comment out
     pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
     url = "/post/"
-    weight = 10
+    weight = 1
 
 [[menu.main]]
     identifier = "twitter"
     # name = "Twitter"
     pre = "<i class='fab fa-twitter fa-lg'></i>"
     url = "https://twitter.com/SU_EventsPortal"
-    weight = 20
+    weight = 3
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/htnabe"
-    weight = 30
+    weight = 4
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:t_official@t-pot.me"
-    weight = 40
+    weight = 5
+
+[[menu.main]]
+    identifier = "and-app"
+    # name = "App"
+    pre = "<i class='fab fa-android fa-lg'></i>"
+    url = "https://play.google.com/store/apps/details?id=com.tpot.suepapp"
+    weight = 2
