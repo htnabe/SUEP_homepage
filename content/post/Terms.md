@@ -76,8 +76,8 @@ draft: false
 第13条（Twitter APIの利用）  
 　本サービスではTwitter, Inc.が提供するTwitter APIを利用し，Twitter上のコンテンツを再配布しています。本アプリケーションを利用するユーザーはTwitterの利用規約およびプライバシーポリシーに同意しているものとみなします。
 
-- [Twitterの利用規約はこちら](https://twitter.com/js/tos)
-- [Twitterのプライバシーポリシーはこちら]("https://twitter.com/ja/privacy)
+- [Twitterの利用規約はこちら](https://twitter.com/ja/tos)
+- [Twitterのプライバシーポリシーはこちら](https://twitter.com/ja/privacy)
 
 第13条（Googleフォームの利用）  
 　本サービスではお問い合わせの際にGoogleフォームを用いる場合があります．Googleが提供するサービスを用いる場合にはGoogleの利用規約が適用されるます．詳しくは下に記載したリンクからご確認ください．
