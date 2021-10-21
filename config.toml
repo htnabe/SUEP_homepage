@@ -30,22 +30,29 @@ theme="pulp"
     weight = 1
 
 [[menu.main]]
-    identifier = "twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/SU_EventsPortal"
-    weight = 3
-
-[[menu.main]]
-    identifier = "github"
-    # name = "GitHub"
-    pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/htnabe"
-    weight = 4
-
-[[menu.main]]
     identifier = "and-app"
     # name = "App"
     pre = "<i class='fab fa-android fa-lg'></i>"
     url = "https://play.google.com/store/apps/details?id=com.tpot.suepapp"
     weight = 2
+
+[[menu.main]]
+    identifier = "ios-app"
+    # name = "GitHub"
+    pre = "<i class='fab fa-apple fa-lg'></i>"
+    url = "https://apps.apple.com/jp/app/id1563354500"
+    weight = 3
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/SU_EventsPortal"
+    weight = 4
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/htnabe/SUEP"
+    weight = 5
