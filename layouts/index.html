@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html>
-	{{- partial "head.html" . -}}
-	<body>
-		<div id="profileContainer">
-			<div id="profile">
-				<header>
-					<!-- avator -->
-					<div class="avatar">
-						<img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="{{ .Site.Params.avatarDescription }}">
-						<img src="/img/avatar-border.svg" class="avatar-border" alt="">
-					</div>
-					<!-- author -->
-					<h1 class="author">{{ .Site.Params.Author }}</h1>
-				</header>
-				<!-- description -->
-				<p>
-				{{ .Site.Params.description | safeHTML }}
-				</p>
-				<!-- navigation -->
-				<nav>
-					<ul>
-						{{ range .Site.Menus.main }}
-						<li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
-						{{ end }}
-					</ul>
-				</nav>
-				<br>
-				<h3>Contact Me!</h3>
-				<form name="contact" method="POST" netlify>
-					<p>
-					<label><input type="text" name="name" placeholder="お名前"/></label>   
-					</p>
-					<p>
-					<label><input type="email" name="email" placeholder="メールアドレス"/></label>
-					</p>
-<p>
-					<label><input type="subject" name="subject" placeholder="件名"/></label>
-					</p>
-					<p>
-					<label><textarea name="message" placeholder="メッセージ"></textarea></label>
-					</p>
-					<p>
-					<button type="submit">送信</button>
-					</p>
-				</form>
-			</div>
-		</div>
-		</div>
-		{{- partial "footer.html" . -}}
-	</body>
+{{- partial "head.html" . -}}
+
+<body>
+  <div id="profileContainer">
+    <div id="profile">
+      <header>
+        <!-- avator -->
+        <div class="avatar">
+          <img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="{{ .Site.Params.avatarDescription }}">
+          <img src="/img/avatar-border.svg" class="avatar-border" alt="">
+        </div>
+        <!-- author -->
+        <h1 class="author">{{ .Site.Params.Author }}</h1>
+      </header>
+      <!-- description -->
+      <p>
+        {{ .Site.Params.description | safeHTML }}
+      </p>
+      <!-- navigation -->
+      <nav>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      <br>
+      <h3>Contact Me!</h3>
+      <form name="contact" method="POST" netlify>
+        <p>
+          <label><input type="text" name="name" placeholder="お名前" /></label>
+        </p>
+        <p>
+          <label><input type="email" name="email" placeholder="メールアドレス" /></label>
+        </p>
+        <p>
+          <label><input type="subject" name="subject" placeholder="件名" /></label>
+        </p>
+        <p>
+          <label><textarea name="message" placeholder="メッセージ"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">送信</button>
+        </p>
+      </form>
+    </div>
+  </div>
+  </div>
+  {{- partial "footer.html" . -}}
+</body>
+
 </html>
