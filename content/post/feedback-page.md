@@ -24,6 +24,7 @@ draft: false
       </label>
       </div>
         <div class="form-item">
+          <p>バグ・エラーの報告については、お手数ですができるだけエラーが起こった際の詳細を記載していただけると助かります。</p>
           <label><textarea name="フィードバック内容" placeholder="メッセージ"></textarea></label>
       </div>
       <div class="send-Button">
