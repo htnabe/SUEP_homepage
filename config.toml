@@ -1,4 +1,4 @@
-baseURL = "https://suep.netlify.app/"
+baseURL = "https://tranquil-piroshki-77f875.netlify.app/"
 languageCode = "ja-fp"
 title = "SUEP"
 theme="pulp"
