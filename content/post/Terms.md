@@ -86,11 +86,16 @@ draft: false
 
 　本サービスではTwitter、Inc.が提供するTwitterAPIを利用し、Twitter上のコンテンツを再配布しています。本アプリケーションを利用するユーザーはTwitterの利用規約およびプライバシーポリシーに同意しているものとみなします。
 
-- [Twitterの利用規約はこちら](https://twitter.com/ja/tos)
-- [Twitterのプライバシーポリシーはこちら](https://twitter.com/ja/privacy)
+- {{< rawhtml >}}
+<a href="https://twitter.com/ja/tos" target="_blank" rel=”noopener noreferrer”>Twitterの利用規約はこちら</a>
+{{</ rawhtml >}}
+- {{< rawhtml >}}
+<a href="https://twitter.com/ja/privacy" target="_blank" rel=”noopener noreferrer”>Twitterのプライバシーポリシーはこちら</a>
+{{</ rawhtml >}}
 
 第13条（Googleフォームの利用）
 
 　本サービスではお問い合わせの際にGoogleフォームを用いる場合があります。Googleが提供するサービスを用いる場合にはGoogleの利用規約が適用されるます。詳しくは下に記載したリンクからご確認ください。
-
-- [Googleのプライバシーポリシーと利用規約はこちらから](https://policies.google.com/terms?hl=ja)
+- {{< rawhtml >}}
+<a href="https://policies.google.com/terms?hl=ja" target="_blank" rel=”noopener noreferrer”>Googleのプライバシーポリシーと利用規約はこちらから</a>
+{{</ rawhtml >}}

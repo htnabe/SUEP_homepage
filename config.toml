@@ -37,22 +37,15 @@ theme="pulp"
     weight = 2
 
 [[menu.main]]
-    identifier = "ios-app"
-    # name = "GitHub"
-    pre = "<i class='fab fa-apple fa-lg'></i>"
-    url = "https://apps.apple.com/jp/app/id1563354500"
-    weight = 3
-
-[[menu.main]]
     identifier = "twitter"
     # name = "Twitter"
     pre = "<i class='fab fa-twitter fa-lg'></i>"
     url = "https://twitter.com/SU_EventsPortal"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/htnabe/SUEP"
-    weight = 5
+    weight = 4

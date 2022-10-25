@@ -14,10 +14,13 @@ draft: false
 
 　本サービスではTwitter APIを利用しコンテンツを表示しています。ユーザーがTwitter, Inc.が提供するサービスを利用する際には、ユーザーはTwitterのプライバシーポリシーにも同意しているものとみなします。詳しくは下のリンクからご確認ください。
 
-- [Twitterのプライバシーポリシーはこちら](https://twitter.com/ja/privacy)
+- {{< rawhtml >}}
+<a href="https://twitter.com/ja/privacy" target="_blank" rel=”noopener noreferrer”>Twitterのプライバシーポリシーはこちら</a>
+{{</ rawhtml >}}
+
 
 3. Googleが提供するサービスを利用する際のプライバシーポリシー
 
 　本アプリケーションについての問い合わせにはGoogleフォームを用いる場合があります。Googleのサービスを利用する場合にはGoogle独自のプライバシーポリシーが適用されます。詳しくは下に示したリンク先でご確認いただけます。
 
-- [Googleのプライバシーポリシーと利用規約はこちら](https://policies.google.com/terms?hl=ja)
+- {{< rawhtml >}}<a href="https://policies.google.com/terms?hl=ja" target="_blank" rel=”noopener noreferrer”>Googleのプライバシーポリシーと利用規約はこちら</a>{{</ rawhtml >}}

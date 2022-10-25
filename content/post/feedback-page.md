@@ -4,7 +4,7 @@ date: 2021-10-21T18:09:20+09:00
 draft: false
 ---
 {{< rawhtml >}}
-<p>フィードバックの内容は直接開発者に届きます。個人情報の取り扱いについては<a href="https://suep.netlify.app/post/plivacypolicy/" target="_blank" rel=”noreferrer”>こちら</a>をご確認ください。</p>
+<p>フィードバックの内容は直接開発者に届きます。個人情報の取り扱いについては<a href="https://suep.netlify.app/post/plivacypolicy/" target="_blank" rel=”noopener noreferrer”>こちら</a>をご確認ください。</p>
   <form name="feedback" method="POST" netlify>
     <div class="form-item">
       <label><input type="text" name="お名前" placeholder="お名前 または ニックネーム" /></label>
